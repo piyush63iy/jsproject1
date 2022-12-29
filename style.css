@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://fdn.gsmarena.com/imgroot/news/19/12/happy-new-year/-1220x526/gsmarena_001.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+    color: #E4E9FD;
+}
+.countdown-container{
+    display: flex;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    color: #A683E3;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 1.5rem;
+}
+.h{
+    color: #A683E3;
+}
